@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tu Nombre">
+    <meta name="description" content="Tarea sobre etiquetas HTML5">
+    <meta name="keywords" content="HTML5, diseño web, etiquetas">
+    <title>Tarea Etiquetas HTML5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tarea sobre Etiquetas HTML5</h1>
+        <h2>Por: Tu Nombre Completo</h2>
+        <img src="avatar.jpg" alt="Foto de tu nombre" width="150">
+    </header>
+
+    <main>
+        <!-- Estructura Básica -->
+        <section>
+            <h2>Estructura Básica</h2>
+            <p>En esta sección se presentan las etiquetas básicas de un documento HTML5.</p>
+            <code>
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt; &lt;head&gt; &lt;title&gt; &lt;body&gt;
+            </code>
+        </section>
+
+        <!-- Estructura de Sección -->
+        <section>
+            <h2>Etiquetas de Secciones</h2>
+            <article>
+                <hgroup>
+                    <h1>Encabezado Principal</h1>
+                    <h2>Subtítulo relacionado</h2>
+                </hgroup>
+                <address>
+                    Contacto: <a href="mailto:mi-correo@ejemplo.com">mi-correo@ejemplo.com</a>
+                </address>
+                <div>
+                    <p>Esta es una división de contenido.</p>
+                </div>
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" width="300" height="200" title="Video"></iframe>
+            </article>
+        </section>
+
+        <!-- Listas y Grupos -->
+        <section>
+            <h2>Etiquetas de Listas y Grupos</h2>
+            <ul>
+                <li>Elemento de lista desordenada</li>
+                <li>Otro elemento</li>
+            </ul>
+            <ol>
+                <li>Elemento de lista ordenada</li>
+                <li>Otro elemento</li>
+            </ol>
+            <dl>
+                <dt>Término 1</dt>
+                <dd>Descripción del término 1</dd>
+                <dt>Término 2</dt>
+                <dd>Descripción del término 2</dd>
+            </dl>
+            <figure>
+                <img src="imagen.jpg" alt="Descripción de la imagen">
+                <figcaption>Esta es una figura con su respectiva leyenda.</figcaption>
+            </figure>
+            <details>
+                <summary>Más información</summary>
+                <p>Este es un texto expandible.</p>
+            </details>
+            <dialog open>Este es un cuadro de diálogo.</dialog>
+        </section>
+
+        <!-- Etiquetas de Texto -->
+        <section>
+            <h2>Etiquetas de Texto</h2>
+            <p>Este es un párrafo normal.</p>
+            <blockquote>"Esta es una cita en bloque."</blockquote>
+            <q>Esta es una cita en línea.</q>
+            <p><cite>Nombre del libro o fuente citada</cite></p>
+            <abbr title="HyperText Markup Language">HTML</abbr> es el lenguaje de marcado.
+            <p><code>&lt;html&gt;</code> es una etiqueta de código.</p>
+            <p><kbd>Ctrl + S</kbd> para guardar el archivo.</p>
+            <p><b>Texto en negrita con b</b></p>
+            <p><strong>Texto en negrita con strong</strong></p>
+            <p><i>Texto en cursiva con i</i></p>
+            <p><em>Texto en cursiva con em</em></p>
+            <p><mark>Texto resaltado</mark></p>
+            <p><small>Texto pequeño</small></p>
+            <p><del>Texto eliminado</del></p>
+            <p><ins>Texto insertado</ins></p>
+            <p>Texto con subíndice como H<sub>2</sub>O</p>
+            <p>Texto con superíndice como x<sup>2</sup></p>
+            <time datetime="2026-01-25">25 de enero de 2026</time>
+            <br>
+            <data value="12345">Dato máquina legible</data>
+            <span style="color: red;">Texto personalizado</span>
+        </section>
+
+        <!-- Enlaces -->
+        <section>
+            <h2>Etiquetas de Enlaces</h2>
+            <a href="https://google.com" target="_blank">Ir a Google</a>
+            <map name="image-map">
+                <area shape="rect" coords="34,44,270,350" alt="Area1">
+            </map>
+        </section>
+
+        <!-- Etiquetas de Imágenes -->
+        <section>
+            <h2>Imágenes</h2>
+            <img src="image.jpg" alt="Ejemplo de imagen">
+            <picture>
+                <source srcset="imagen.webp" type="image/webp">
+                <img src="imagen.jpg" alt="Ejemplo de imagen con picture">
+            </picture>
+            <canvas id="canvas" width="200" height="100"></canvas>
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+            </svg>
+        </section>
+
+        <!-- Multimedia -->
+        <section>
+            <h2>Multimedia</h2>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mp3">
+                Tu navegador no soporta audio.
+            </audio>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Tu navegador no soporta video.
+            </video>
+            <track kind="subtitles" src="subtitles.vtt" srclang="es" label="Español">
+        </section>
+    </main>
+
+    <footer>
+        <p>Creado por <strong>Tu Nombre Completo</strong></p>
+        <small>&copy; 2026</small>
+    </footer>
+</body>
+</html>
