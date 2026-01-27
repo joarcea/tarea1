@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Ejemplo</title>
+</head>
+<body>
+    <header>
+        <h1>Mi Página Web</h1>
+        <p>Autor: Eduardo Arce</p>
+        <img src=/assets/img/avatar.png alt="Mi foto">
+    </header>
+    <main>
+        <section>
+            <h2>Etiquetas de Estructura Básica</h2>
+            <hgroup>
+                <h1>Etiqueta Principal</h1>
+                <h2>Subtítulo o secundario</h2>
+            </hgroup>
+        </section>
+
+        <section>
+            <h2>Secciones del Documento</h2>
+            <h1>Encabezado H1</h1>
+            <h2>Encabezado H2</h2>
+            <h3>Encabezado H3</h3>
+            <address>
+                Contáctame en: <a href="mailto:ejemplo@email.com">ejemplo@email.com</a>
+            </address>
+            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" width="560" height="315"></iframe>
+        </section>
+
+        <section>
+            <h2>Grupos de Elementos</h2>
+            <ul>
+                <li>Elemento de Lista Desordenada</li>
+                <li>Otro Elemento</li>
+            </ul>
+            <ol>
+                <li>Primero</li>
+                <li>Segundo</li>
+            </ol>
+            <dl>
+                <dt>Término</dt>
+                <dd>Definición del término</dd>
+            </dl>
+            <figure>
+                <img src="image.jpg" alt="Imagen de figura">
+                <figcaption>Fig. 1: Descripción de la figura</figcaption>
+            </figure>
+            <details>
+                <summary>Más Información</summary>
+                <p>Esto es información adicional que puede expandirse.</p>
+            </details>
+        </section>
+
+        <section>
+            <h2>Texto</h2>
+            <p>Este es un <b>párrafo</b> con texto <strong>enfatizado</strong> y <i>texto en cursiva</i>. También puede incluir <abbr title="Lenguaje de Marcado de Hipertexto">HTML</abbr>.</p>
+            <blockquote cite="https://es.wikipedia.org/wiki/HTML">
+                "Este es un bloque de cita."
+            </blockquote>
+            <q>Esta es una cita en línea.</q>
+            <code>console.log("Hola Mundo");</code>
+            <pre>
+Texto con espacios
+y saltos de línea preservados.
+            </pre>
+        </section>
+
+        <section>
+            <h2>Enlaces</h2>
+            <a href="https://www.google.com" target="_blank">Ir a Google</a>
+            <map name="mapa-sitio">
+                <area shape="rect" coords="34,44,270,350" alt="Área del sitio" href="https://www.ejemplo.com/">
+            </map>
+        </section>
+
+        <section>
+            <h2>Imágenes</h2>
+            <img src="imagen.jpg" alt="Descripción de la Imagen">
+            <picture>
+                <source srcset="imagen-grande.jpg" media="(min-width: 600px)">
+                <source srcset="imagen-pequeña.jpg" media="(max-width: 599px)">
+                <img src="imagen.jpg" alt="Descripción">
+            </picture>
+        </section>
+
+        <section>
+            <h2>Multimedia</h2>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Tu navegador no soporta la etiqueta de audio.
+            </audio>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+            <canvas id="miLienzo" width="300" height="150"></canvas>
+            <script>
+                const canvas = document.getElementById("miLienzo");
+                const ctx = canvas.getContext("2d");
+                ctx.fillStyle = "blue";
+                ctx.fillRect(10, 10, 100, 50);
+            </script>
+        </section>
+    </main>
+
+    <footer>
+        <p><small>© 2026 Ejemplo de Etiquetas HTML</small></p>
+    </footer>
+</body>
+</html>
